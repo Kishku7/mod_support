@@ -12,12 +12,7 @@ body:
       label: Mod
       description: Which supported mod are you requesting source for?
       options:
-        - Auto-Shield Reborn
-        - Bank Vault
         - Chunksmith
-        - ElytraHud3
-        - Lava Boats
-        - Trident Killers 4 Java
     validations:
       required: true
   - type: input

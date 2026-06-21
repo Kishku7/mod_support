@@ -21,8 +21,11 @@ Open an issue: https://github.com/Kishku7/mod_support/issues/new/choose
 
 ## Requesting source code
 
-Source is available on request under the terms of each mod's license. To request the source
-for a supported mod, **open an issue** to begin your request:
+Source code is available on request **only for mods released under a license that requires it** (copyleft). Mods released All Rights Reserved, or under a permissive license such as MIT, are not eligible.
+
+Currently eligible: **Chunksmith** (GPL-3.0).
+
+To request source for an eligible mod, **open an issue** to begin your request:
 
 **Start a source request:** https://github.com/Kishku7/mod_support/issues/new?template=source-request.yml
 
