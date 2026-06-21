@@ -15,12 +15,27 @@ body:
         - Chunksmith
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: license
     attributes:
       label: License invoked
-      description: The license you are exercising to obtain your source rights.
-      placeholder: "e.g. GPL-3.0, MIT"
+      description: The copyleft license you are exercising to obtain your source rights.
+      options:
+        - "AGPL-3.0 (GNU Affero General Public License v3)"
+        - "GPL-3.0 (GNU General Public License v3)"
+        - "GPL-2.0 (GNU General Public License v2)"
+        - "LGPL-3.0 (GNU Lesser General Public License v3)"
+        - "LGPL-2.1 (GNU Lesser General Public License v2.1)"
+        - "MPL-2.0 (Mozilla Public License 2.0)"
+        - "EPL-2.0 (Eclipse Public License 2.0)"
+        - "EPL-1.0 (Eclipse Public License 1.0)"
+        - "CDDL-1.0 (Common Development and Distribution License 1.0)"
+        - "MS-RL (Microsoft Reciprocal License)"
+        - "OSL-3.0 (Open Software License 3.0)"
+        - "EUPL-1.2 (European Union Public License 1.2)"
+        - "CeCILL-2.1 (CeCILL Free Software License v2.1)"
+        - "Sleepycat License"
+        - "Other copyleft license (specify in Details)"
     validations:
       required: true
   - type: dropdown
