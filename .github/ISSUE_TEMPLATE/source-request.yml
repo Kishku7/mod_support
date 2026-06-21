@@ -1,0 +1,47 @@
+name: Source code request
+description: Request the source code for a supported mod under its license.
+title: "Source request: "
+labels: ["source-request"]
+body:
+  - type: markdown
+    attributes:
+      value: "Request source for a mod we publish to Modrinth. All three fields below are required."
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      description: Which supported mod are you requesting source for?
+      options:
+        - Auto-Shield Reborn
+        - Bank Vault
+        - Chunksmith
+        - ElytraHud3
+        - Lava Boats
+        - Trident Killers 4 Java
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License invoked
+      description: The license you are exercising to obtain your source rights.
+      placeholder: "e.g. GPL-3.0, MIT"
+    validations:
+      required: true
+  - type: dropdown
+    id: method
+    attributes:
+      label: Preferred delivery method
+      options:
+        - Provide URL
+        - Discord
+        - Other / special request
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: 'For "Other / special request", describe what you need. For Discord, include your handle.'
+    validations:
+      required: false

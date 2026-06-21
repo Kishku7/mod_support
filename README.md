@@ -15,7 +15,7 @@ We provide support for every mod we publish to Modrinth:
 
 ## Bug reports & support
 
-Open an issue: https://github.com/Kishku7/mod_support/issues/new
+Open an issue: https://github.com/Kishku7/mod_support/issues/new/choose
 
 ---
 
@@ -24,7 +24,7 @@ Open an issue: https://github.com/Kishku7/mod_support/issues/new
 Source is available on request under the terms of each mod's license. To request the source
 for a supported mod, **open an issue** to begin your request:
 
-**Start a source request:** https://github.com/Kishku7/mod_support/issues/new?title=Source+request%3A+%3Cmod%3E&body=%23%23+Source+code+request%0A%0APlease+provide+all+three%3A%0A%0A1.+Mod%3A+%0A2.+License+invoked%3A+%0A3.+Preferred+delivery+method+%28choose+one%29%3A+Provide+URL+%2F+Discord+%2F+Other+special+request%0A
+**Start a source request:** https://github.com/Kishku7/mod_support/issues/new?template=source-request.yml
 
 Your request **must specify all three** of the following:
 
