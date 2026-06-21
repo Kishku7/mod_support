@@ -10,7 +10,7 @@ body:
     id: mod
     attributes:
       label: Mod
-      description: Which supported mod are you requesting source for?
+      description: "Only mods published under a copyleft license are made available for source requests, so only those are listed here."
       options:
         - Chunksmith
     validations:
@@ -36,6 +36,7 @@ body:
         - "CeCILL-2.1 (CeCILL Free Software License v2.1)"
         - "Sleepycat License"
         - "Other copyleft license (specify in Details)"
+      default: 1
     validations:
       required: true
   - type: dropdown
