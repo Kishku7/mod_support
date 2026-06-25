@@ -12,6 +12,7 @@ We provide support for every mod we publish to Modrinth:
 - [ElytraHud3](https://modrinth.com/mod/elytrahud3)
 - [Lava Boats](https://modrinth.com/mod/lava-boats)
 - [Trident Killers 4 Java](https://modrinth.com/mod/trident-killers-4-java)
+- [Ultimate Sleep](https://modrinth.com/mod/ultimate-sleep)
 
 ## Bug reports & support
 
